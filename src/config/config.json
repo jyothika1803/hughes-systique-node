@@ -1,10 +1,15 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "dashboard",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "2rbGEv5aBk5W8P4.root",
+    "password": "a6a7vc0H4zN1CmTi",
+    "database": "test",
+    "host": "gateway01.ap-northeast-1.prod.aws.tidbcloud.com",
+    "dialect": "mysql",
+    "dialectOptions": {
+    "ssl": {
+      "rejectUnauthorized": true
+    }
+  }
   },
   "test": {
     "username": "root",
